@@ -6,7 +6,8 @@ Using ``matrix_divided``
 ------------------------
 
 Import the function:
-
+    >>> import sys
+    >>> sys.path.insert(1, '../')
     >>> matrix_divided = __import__('2-matrix_divided').matrix_divided
 
 Now test it:

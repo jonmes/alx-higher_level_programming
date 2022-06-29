@@ -6,7 +6,8 @@ Using ``say_my_name``
 ----------------------
 
 Import the function:
-
+    >>> import sys
+    >>> sys.path.insert(1, '../')
     >>> say_my_name  = __import__('3-say_my_name').say_my_name
 
 Now test it:
