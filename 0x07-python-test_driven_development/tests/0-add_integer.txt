@@ -1,4 +1,4 @@
-=============================
+i============================
 The ``0-add_integer`` module
 =============================
 
@@ -6,7 +6,8 @@ Using ``add_integer``
 ---------------------
 
 Import the function:
-
+    >>> import sys
+    >>> sys.path.insert(1, '../') 
     >>> add_integer = __import__('0-add_integer').add_integer
 
 Now test it:
